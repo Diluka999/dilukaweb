@@ -1,9 +1,4 @@
-﻿/* 
- Plugin     : Tileshow
- Version    : 1.1
- Created on : Aug 13, 2013
- Author     : Grozav http://grozav.com
- */
+﻿ 
 
 (function ($) {
 
