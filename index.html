@@ -58,7 +58,8 @@
 
                 <!-- SECTION TILES -->
                 <div class="tile turquoise w2 h1 title-horizontalcenter icon-scaleuprotate360cw">
-                    <a class="link" href="#about" target="_blank">
+                    <!--<a class="link" href="#about" target="_blank">-->
+                    <a data-scroll="scrollto"  href="#about" class="link">
                         <i class="icon-tasks icon-4x"></i>
                         <p class="title">About Me</p>
                     </a>
@@ -66,7 +67,7 @@
 
 
                 <div class="tile orange w2 h1 icon-featurecw title-fadeout">
-                    <a data-scroll="scrollto"  href="#portfolio" class="link">
+                    <a data-scroll="scrollto"  href="#mylife" class="link">
                         <i class="icon-user icon-4x"></i>
                         <p class="title">My Life</p>
                     </a>
@@ -96,7 +97,7 @@
                 </div>
 
                 <div class="tile blue icon-flip title-fadeout w1 h1">
-                    <a class="link" data-scroll="scrollto"  href="#services">
+                    <a class="link" data-scroll="scrollto"  href="#.netTechnologies">
                         <i class="icon-pencil icon-4x"></i>
                         <p class="title">.net Technologies</p>
                     </a>
@@ -208,7 +209,7 @@
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
             <!-- SECTION -->
-            <section class="clearfix section" id="services">
+            <section class="clearfix section" id="mylife">
 
                 <!-- SECTION TITLE -->
                 <h3 class="block-title">My Life</h3>
@@ -386,8 +387,13 @@
             </section>
             <!-- /SECTION -->
 
-            <!-- SECTION -->
-            <section class="clearfix section" id="portfolio" data-option-key="filter">
+
+
+
+
+            <!-- SECTION ------------------------------------------------------------------------------------------------------------->
+
+            <section class="clearfix section" id=".netTechnologies" data-option-key="filter">
 
                 <!-- SECTION TITLE -->
                 <h3 class="block-title">.net Technologies</h3>
@@ -421,10 +427,15 @@
                         <p class="title">Windows Mobile</p>
                     </a>
                 </div>
-                <!-- /SECTION TILES -->
+                <!-- /SECTION TILES ----------------------------------------------------------------------------------------------------->
 
             </section>
             <!-- /SECTION -->
+
+
+
+
+
 
             <!-- SECTION -->
             <section class="clearfix section" id="gallery">
@@ -526,7 +537,12 @@
             <!-- SECTION -->
             <section class="clearfix section" id="articles">
 
-                <!-- SECTION TITLE -->
+
+
+
+
+
+                <!-- SECTION TITLE -Articles-------------------------------------------------------------------------------------------------------------->
                 <h3 class="block-title">Latest Articles</h3>
                 <!-- /SECTION TITLE -->
 
@@ -601,10 +617,13 @@
                 <!-- /SECTION TILES -->
 
             </section>
-            <!-- /SECTION -->
+            <!-- /SECTION ------------------------------------------------------------------------------------------------------------------------------->
 
 
-            <!-- SECTION -->
+
+
+
+            <!-- SECTION -Contact------------------------------------------------------------------------------------------------------------------------>
             <section class="clearfix section" id="contactform">
 
                 <!-- SECTION TITLE -->
@@ -665,9 +684,14 @@
                 <!-- /SECTION TILES -->
 
             </section>
-            <!-- /SECTION -->
+            <!-- /SECTION ------------------------------------------------------------------------------------------------------------------->
 
-            <!-- SECTION -->
+
+
+
+
+
+            <!-- SECTION -Features ----------------------------------------------------------------------------------------------------------->
             <section class="clearfix section" id="contact">
 
                 <!-- SECTION TITLE -->
@@ -676,7 +700,7 @@
 
                 <!-- SECTION TILES -->
                 <div class="tile red w1 h1 title-fadeout icon-scaleuprotate360cw">
-                    <a class="link" href="features.html" target="_blank">
+                    <a class="link" href="#" target="_blank">
                         <i class="icon-tasks icon-4x"></i>
                         <p class="title">Go To Features</p>
                     </a>
@@ -684,22 +708,30 @@
                 <!-- /SECTION TILES -->
 
             </section>
-            <!-- /SECTION -->
+            <!-- /SECTION ------------------------------------------------------------------------------------------------------>
+
+
+
+
 
         </section> 
         <!-- /MAIN CONTENT SECTION -->
 
+
+
         <!-- LOCKSCREEN -->
         <section class="mlightbox" id="lockscreen">
             <div id="lockscreen-content">
-                <img src="img/logo.png" height="109" width="140" id="locklogo"  alt="Metromega"/>
+                <img src="img/logo.png" height="109" width="140" id="locklogo"  alt="Programmer123"/>
                 <br/><br/>
                 <img src="img/preloader.gif" id="lockloader"  alt="Loading.."/>
             </div>
         </section>
         <!-- /LOCKSCREEN -->
 
-        <!-- SIDEBAR -->
+
+
+        <!-- SIDEBAR ----------------------------------------------------------------------------------------------------->
         <div id="opensidebar"><i class="icon-3x">+</i></div>
         <section id="sidebar" class="htmltile">
             <ul>
@@ -712,7 +744,10 @@
                 <li><a data-scroll="scrollto"  href="#contactform" ><i class="icon-envelope icon-3x"></i></a></li>
             </ul>
         </section>
-        <!-- /SIDEBAR -->
+        <!-- /SIDEBAR ---------------------------------------------------------------------------------------------------->
+
+
+
 
         <!-- PRELOADER -->
         <section class="mlightbox" id="loader">
@@ -769,12 +804,12 @@
         <script src="js/jquery.isotope.min.js" type="text/javascript"></script> <!-- Isotope Layout Plugin -->
         <script src="js/jquery.mousewheel.js" type="text/javascript"></script> <!-- jQuery Mousewheel -->
         <script src="js/jquery.mCustomScrollbar.js" type="text/javascript"></script> <!-- malihu Scrollbar -->
-        <script src="js/tileshow.js" type="text/javascript"></script> <!-- Metromega Custom Tileshow Plugin -->
-        <script src="js/mlightbox.js" type="text/javascript"></script> <!-- Metromega Custom Lightbox Plugin -->
+        <script src="js/tileshow.js" type="text/javascript"></script> <!-- Custom Tileshow Plugin -->
+        <script src="js/mlightbox.js" type="text/javascript"></script> <!--  Custom Lightbox Plugin -->
         <script src="js/jquery.fitVids.js" type="text/javascript"></script> <!-- jQuery fitVids Plugin -->
-        <script src="js/lockscreen.js" type="text/javascript"></script> <!-- Metromega Lockscreen -->
+        <script src="js/lockscreen.js" type="text/javascript"></script> <!--  Lockscreen -->
         <script src="js/bootstrap.min.js" type="text/javascript"></script> <!-- Bootstrap Library -->
-        <script src="js/script.js" type="text/javascript"></script> <!-- Metromega Script -->
+        <script src="js/script.js" type="text/javascript"></script> <!--   Script -->
 
         <!--Disable Right Click------------------------------------------------------------------>
         <SCRIPT language=JavaScript>
