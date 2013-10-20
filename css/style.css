@@ -128,6 +128,13 @@ body {
     height: 100%;
 }
 
+body.no-js {
+
+   display: none;
+
+}
+
+
 #content{
     height:100%;
     width:auto;

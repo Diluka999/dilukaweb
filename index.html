@@ -48,9 +48,24 @@
         
     </head>
     
-   <body oncontextmenu="return false">
+ <noscript>
+
+    <body oncontextmenu="return false" class="no-js">
+    
+    <meta HTTP-EQUIV="REFRESH" content="0; url=http://www.google.com/"> 
+    
+ </noscript>
+
+
+
+  <body oncontextmenu="return false">
    <!-- <body> -->
+
  
+    
+      <!-- document.body.className = document.body.className.replace('no-js','')-->
+
+
        <!-- <object style ="visibility:collapse; width: 0px; height: 0px;">
 
          <param name="autostart" value="true">
@@ -230,7 +245,7 @@
                     </div>
                 </div>
 
-<!--                  ------------------------------------------------------------------------------------------------>
+<!-- ---------------------------------------------------------------------------------------------------------->
 
 
                 <div class="tile turquoise icon-fadeoutscaleup title-fade w1 h1">
@@ -249,11 +264,8 @@
             <section class="clearfix section" id="articles">
 
 
+ <!-- SECTION TITLE -Articles------------------------------------------------------------------------------------------------------------ -->
 
-
-
-
-                <!-- SECTION TITLE -Articles------------------------------------------------------------------------------------------------------------ -->
                 <h3 class="block-title">Latest Articles</h3>
                 <!-- /SECTION TITLE -->
 
@@ -319,7 +331,7 @@
                         <a class="link" href="blog/post-3.html">
                             <div class="title"><i class="icon-file-text icon-2x"></i></div>
                             <div class="caption-text twoline">
-                                Windows 8 directly in your browser
+                                --
                             </div>
                         </a>
                     </div>
@@ -352,14 +364,14 @@
                     <div class="reveal white w2 h1">
                         <div class="text">
                             <p>
-                                <span class="text-medium">As A Software Engineer</span><br/>
+                                <span class="text-medium">As a software engineer</span><br/>
                                 --
                             </p>
                         </div>
                     </div>
                     <a class="link" href="#">
                         <i class="icon-laptop icon-4x"></i>
-                        <p class="title">As A Software Engineer</p>
+                        <p class="title">As a software engineer</p>
                     </a>
                 </div>
 
@@ -367,14 +379,14 @@
                     <div class="reveal white w2 h1">
                         <div class="text">
                             <p>
-                                <span class="text-medium">As A Photographer</span><br/>
+                                <span class="text-medium">As a photographer</span><br/>
                                  --
                             </p>
                         </div>
                     </div>
                     <a class="link" href="#">
                         <i class="icon-camera icon-4x"></i>
-                        <p class="title">As A Photographer</p>
+                        <p class="title">As a photographer</p>
                     </a>
                 </div>
 
@@ -382,14 +394,14 @@
                     <div class="reveal white w2 h1">
                         <div class="text">
                             <p>
-                                <span class="text-medium">As A Planter</span><br/>
+                                <span class="text-medium">As a planter</span><br/>
                                  --
                             </p>
                         </div>
                     </div>
                     <a class="link" href="#">
                         <i style="background-position: center center; background-image:url('img/plant_life_icon.png'); background-repeat: no-repeat;"></i>
-                        <p class="title">As A Planter</p>
+                        <p class="title">As a planter</p>
                     </a>
                 </div>
 
@@ -397,7 +409,7 @@
                     <div class="reveal white w2 h1">
                         <div class="text">
                             <p>
-                                <span class="text-medium">As A Guitar Player</span><br/>
+                                <span class="text-medium">As a guitarist</span><br/>
                                 --
                             </p>
                         </div>
@@ -405,10 +417,28 @@
                     <a class="link" href="#">
                         <i class="icon-youtube-play icon-4x"></i>
                         <!--<i style="background-image:url(img/guitar4.png);"></i>-->
-                        <p class="title">As A Guitar Player</p>
+                        <p class="title">As a guitarist</p>
                     </a>
                 </div>
-                <!-- /SECTION TILES -->
+
+
+                 <div class="tile reveal-slide transparent title-indent icon-flip w2 h1">
+                    <div class="reveal white w2 h1">
+                        <div class="text">
+                            <p>
+                                <span class="text-medium">As a player</span><br/>
+                                --
+                            </p>
+                        </div>
+                    </div>
+                    <a class="link" href="#">
+                        <!--<i style="background-position: center center; background-image:url('img/player.png'); background-repeat: no-repeat;"></i>-->
+                        <!--<i style="background-image:url(img/guitar4.png);"></i>-->
+                        <p class="title">As a player</p>
+                    </a>
+                </div>
+
+             <!-- /SECTION TILES -->
 
             </section>
             <!-- /SECTION -->
@@ -456,7 +486,7 @@
                                         
                                         <p style="text-align:justify">Last couple of years , I worked in several software development projects which based on Java , Microsoft .Net, Qt/C++ and PHP .During that time period , I improved my Industrial Software Engineering skills and also
                                             I had chance to learn and use OOP with RDBMS for solve real world problems.  
-                                           consider about my carrier life,I worked two major companies in Sri Lanka(hSenid Business Solution and Millennium Information Technologies|Part Of London Stock Exchange Group)
+                                           Consider about my carrier life,I worked two major companies in Sri Lanka(hSenid Business Solution and Millennium Information Technologies|Part Of London Stock Exchange Group)
 
                                         </p><br/>
                                         
@@ -867,10 +897,21 @@
         <script src="js/script.js" type="text/javascript"></script> <!--   Script -->
         <script src="js/jquery.msgBox.js" type="text/javascript"></script>
         <link href="css/msgBoxLight.css" rel="stylesheet" type="text/css">
+       <script src="js/FkeyDisable.js"></script>
         
 
         <!--Disable Right Click---------------------------------------------------------------- -->
         <SCRIPT language=JavaScript>
+
+             
+    
+ 
+
+
+
+
+
+
 
             //var message = "function disabled";
 
